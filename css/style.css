@@ -1,0 +1,21 @@
+body {
+    background-color: papayawhip;
+}
+
+hr {
+    /* top | right | bottom | left */
+    border-style: dotted none none none;
+    width: 5%;
+    border-width: 0.15cm;
+    border-color: black;
+}
+
+h1 {
+    text-decoration-line: overline;
+    text-decoration-color: #FC4F4F;
+    color: #F76E11;
+}
+
+h3 {
+    color: #F76E11; /* Or Chocolate*/
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact Me </title>
+</head>
+<body>
+    <h1>My contact details</h1>
+    <h4> Javier Vargas </h4>
+    <h4> <strong>Cel:</strong> (+57) ### ### ####</h4>
+    <h4> <strong>e-mail:</strong> hola@javierd.com </h4>
+    <h4> <strong>Time zone:</strong> <em>GMT-5 (Colombia, LATAM)</em> </h4>
+
+    <hr>
+    <p>Send me a message:</p>
+    <form action="mailto:hola@javierd.com" method="post" enctype="text/plain" id="survey-form">
+        <table>
+            <tr>
+                <td><label >Your Name: </label></td>
+                <td><input type="text" name="youName" id="name"></td>
+            </tr>
+            <tr>
+                <td><label >Your e-mail: </label></td>
+                <td><input type="email" name="yourEmail" id="email"></td>
+            </tr>
+            <tr>
+                <td><label >Your Message: </label></td>
+                <td><textarea name="yourMessage" id="" cols="27" rows="10"></textarea></td>
+            </tr>
+            <!-- <tr>
+                <td><input type="file"></td>
+            </tr> -->
+        </table>        
+        <label>Subscribe to my newsletter?</label>
+        <input type="checkbox" name="Newsletter?"><br><br>
+
+        <input type="submit" value="Send">
+    </form>
+
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+</html>
