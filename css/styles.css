@@ -44,6 +44,7 @@ a{
     padding-bottom: 75px;
     background-image: url("../images/black-and-white-nature-lake.jpg");
     background-size: 100%;
+    background-repeat: no-repeat;
     /* opacity: 80%; */
 }
 
@@ -83,6 +84,7 @@ a{
 .skills {
     display: flex;
     flex-direction: column;
+    background-color: papayawhip;
 }
 
 .skill-row {
@@ -114,21 +116,6 @@ a{
     flex-direction: row-reverse;
 
 }
-
-@media (max-width:629px) {
-    .skill-img {
-      display: none;
-    }
-    .top-cloud {
-        display: none;
-    }
-    .bottom-cloud {
-        display: none;
-    }
-    h1 {
-        margin-top: 0;
-    }
-  }
 
 #PC-responsive-img {
     position: relative;
@@ -200,4 +187,22 @@ hr {
     justify-content: end;
     font-size: 12px;
     gap: 4px;
+}
+
+@media (max-width:629px) {
+    .skill-img {
+      display: none;
+    }
+    .top-cloud {
+        display: none;
+    }
+    .bottom-cloud {
+        display: none;
+    }
+    h1 {
+        margin-top: 0;
+    }
+    .footer-social {
+        flex-direction: column;
+    }
 }
