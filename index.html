@@ -9,29 +9,136 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Changa&family=Kanit&family=Rubik&display=swap" rel="stylesheet">
-    <title>Javier Vargas</title>
+    <title>JavierD Web Development</title>
 </head>
 <body>
     <div class="top-container">
-        <img class="top-cloud" src="images/cloud-coding2.png" alt="cloud-image">
-        <h1>I'm Javier Vargas. </h1>
-        <h2>a <span style="text-decoration: underline;" >pro</span>grammer.</h2>
-        <!-- <img class="bottom-cloud" src="images/cloud-coding2.png" alt="cloud-image"> -->
-        <img src="images/responsive.png" alt="PC-responsive" id="PC-responsive-img">
-
+        <h1>
+          <p>Selt-taught Front End Developer</p>
+          <p>School-taught Mechanical Engineer</p>
+        </h1>
     </div>
-    <span id="img-credit">
-        Photo by <a href="https://unsplash.com/@ambasteir?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nils Leonhardt</a> on <a href="https://unsplash.com/s/photos/black-and-white-nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-    </span>
+    <!-- <span id="img-credit"> -->
+    <!--     Photo by <a href="https://unsplash.com/@ambasteir?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> -->
+    <!--       Nils Leonhardt -->
+    <!--     </a> --> 
+    <!--     on --> 
+    <!--     <a href="https://unsplash.com/s/photos/black-and-white-nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> -->
+    <!--       Unsplash -->
+    <!--     </a> -->
+    <!-- </span> -->
     <div class="middle-container">
-        <div class="profile">
+      <div class="profile">
+        <div class="container">
           <img class="profile-pic" src="images/javierd-pp-2021.png" alt="Profile-pic-Javier-Vargas" height="200px">
-          <h2>Hello.</h2>
-          <p><em>Passionate about Technology and I love <strong>to create</strong> </em></p>
-          <p>Mechanical engineer PhD, researcher, currently working my way to become a Web Developer</p>        
+          <h2>Hello, I'm Javier Vargas.</h2>
+          <div class="intro">
+            <p style="text-align: center;"><em>Passionate about Technology and Learning </em></p>
+            <p>
+              I'm a mechanical engineer, currently working as a Frontend Developer at <a href="https://wondercraft.co/">WonderCraft</a>.
+            </p>        
+            <p>
+              I've been building websites with WordPress since 2016 and modern/complex websites using JavaScript, HTML, CSS and React since 2021.
+              Currently, I'm working in e-commerce projects using Shopify Development with Javascript and I enjoy it everyday.
+            </p>        
+            <!-- <p> -->
+            <!--   I'm a person passionate about learning, I like working on projects --> 
+            <!--   where I have the freedom/responsibility to completed them, it fills --> 
+            <!--   me to work on a project from its beginning until the main objective --> 
+            <!--   is achieved. --> 
+            <!-- </p> -->        
+            <p>
+              I'm a native spanish speaker and also very proficient with English language. 
+            </p>        
+          </div>
         </div>
-        <hr>
+      </div>
+
+        <div class="portfolio">
+          <div class="container">
+            <h2>Portfolio</h2>
+            <div class="skill-row">
+                <img class="skill-img" src="images/infrastructure.png" alt="infrastructure">
+                <!-- <img class="" src="images/javascript.png" alt="JS-icon" height="200px"> -->
+                <div class="skill-text">
+                    <h3>Countries Filtering App</h3>
+                    <p>
+                      Created using React with TypeScript. This application 
+                      gathers information from a GraphQL API that delivers detailed 
+                      information about countries in the World and presents it to
+                      the client, the user is able to refine the results from 
+                      typing the name of the country or filter by continent 
+                      and/or currency. This Single Page Application (SPA) is 
+                      deployed using Firebase
+                    </p>
+                    <div class="project-links">
+                      <a href="https://countries-information-app.web.app/" target="_blank">Live</a>
+                      <a href="https://github.com/javierdebug/Countries-information-webapp" target="_blank">Source code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-row" id="skill2">
+                <img class="skill-img" src="images/javascript.png" alt="javascript-webapp">
+                <div class="skill-text">
+                    <h3>Scientific Calculator</h3>
+                    <p>
+                      Project developed using HTML, CSS and Vanilla JavaScript, 
+                      it performs different Math functions one would use to resolve 
+                      advanced Math calculations. I had to assure the quality of the 
+                      calculator app, no failures should be present. The tricky part 
+                      is that some Math calculations can be expressed very differently, 
+                      some people may use many parentheses (or omit them), power, change 
+                      sign (positive to negative or vice versa), so I must check many
+                      test cases to assure the calculator works as intended.
+                    </p>          
+                    <div class="project-links">
+                      <a href="https://javierdebug.github.io/Scientific-calculator/" target="_blank">Live</a>
+                      <a href="https://github.com/javierdebug/Scientific-calculator" target="_blank">Source code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-row" id="">
+                <img class="skill-img" src="images/cloud-coding.png" alt="cloud-coding">
+                <div class="skill-text">
+                    <h3>Todo App</h3>
+                    <p>
+                      Created from scratch using HTML, CSS and Javascript. 
+                      This type of application is called a CRUD app because it is
+                      able to Create, Read, Update and Delete data from the client 
+                      and arrange the elements displayed in the HTML canvas 
+                      window. This app uses the Local Storage property from the 
+                      browser, this way the app is able to storage the user's 
+                      data even after reloading or closing the tab.
+                    </p>          
+                    <div class="project-links">
+                      <a href="https://bit.ly/To-do-web-app" target="_blank">Live</a>
+                      <a href="https://github.com/javierdebug/To-do-App" target="_blank">Source code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-row" id="skill2">
+                <img class="skill-img" src="images/responsive.png" alt="PC-programmer">
+                <div class="skill-text">
+                    <h3>Password Generator</h3>
+                    <p>
+                      Created from scratch using vanilla HTML, CSS and Javascript. 
+                      This responsive web app is able to create random passwords 
+                      according to the user's inputs, such as the length of the 
+                      password, what characters to include (numbers, letters, 
+                      special). The application relies on event handling and is 
+                      able to arrange and manipulate DOM elements.
+                    </p>          
+                    <div class="project-links">
+                      <a href="https://bit.ly/Password-generator" target="_blank">Live</a>
+                      <a href="https://github.com/javierdebug/Password-generator" target="_blank">Source code</a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+      </div>
+
         <div class="skills">
+          <div class="container">
             <h2>My Skills.</h2>
             <div class="skill-row">
                 <img class="skill-img" src="images/undraw_world_re_768g_.svg" alt="HTML-logo">
@@ -48,24 +155,43 @@
                     <p>I love to resolve problems everyday, I really enjoy the proccess of researching for information, watching tutorials, learn from experts to overcome computer and technology challengues. I've found that working with Algorithms and Databases is really helpful for this purpose. </p>          
                 </div>
             </div>
-        </div>    
-        <hr>
+          </div>    
+        </div>
+
         <div class="contact-me">
+          <div class="container">
             <h2>Get In Touch</h2>
-            <h3>I'm currently available for freelance work.</h3>
+            <!-- <h3>I'm currently available for freelance work.</h3> -->
             <p>Do you have a project in mind? Do you think you need my help? Let's talk about it.</p>
             <a class="btn" href="mailto:hola@javierd.com">CONTACT ME</a>
+          </div>
         </div>
     </div>
       
     <div class="bottom-container">
+      <div class="container">
         <div class="footer-social">
-            <a class="footer-link" href="https://www.linkedin.com/in/javier-vargas-d" target="_blank" rel="noopener noreferrer" >LinkedIn</a>
-            <a class="footer-link" href="https://github.com/javierdebug" target="_blank" rel="noopener noreferrer">Github</a>
-            <a class="footer-link" href="https://www.instagram.com/javierdebug/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a 
+             class="footer-link" 
+             href="https://www.linkedin.com/in/javier-vargas-d" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             >
+             LinkedIn
+          </a>
+            <span>/</span>
+            <a 
+             class="footer-link" 
+             href="https://github.com/javierdebug" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             >
+             Github
+            </a>
         </div>
         <p id="footer-copyright"> © JavierD.</p>
-   </div>
+      </div>
+    </div>
 
 </body>
 </html>
