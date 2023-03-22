@@ -5,42 +5,43 @@
 }
 
 body {
-    margin: 0px;
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    background-color: #0d1926;
-    color: #f7fafc;
-    font-size: clamp(0.5rem, 1.3rem, 1.5rem);
+  margin: 0px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  background-color: #0d1926;
+  color: #f7fafc;
+  font-size: clamp(0.5rem, 1.3rem, 1.5rem);
 }
 
 h1 {
-    color: #8cb0d9;
-    font-size: 5.625rem; /*1em (or 1rem) is equal to 16px*/
-    margin: 0;
-    padding: 3rem;
-    font-family: 'Changa', sans-serif;
-    line-height: 1;
+  color: #8cb0d9;
+  font-size: clamp(0.2rem, 3rem, 3.1rem);
+  margin: 0;
+  padding-top: 2rem;
+  font-family: "Changa", sans-serif;
+  line-height: 1;
 }
 
 h1 p {
-  font-size: clamp(0.2rem, 3.0rem, 3.1rem);
+  font-size: clamp(0.2rem, 3rem, 3.1rem);
 }
 
-h2, h3{
-    font-family: 'Kanit', sans-serif;
+h2,
+h3 {
+  font-family: "Kanit", sans-serif;
 }
 
 h2 {
-    color: #8cb0d9;
-    font-size: 4.8rem;
-    font-weight: normal;
-    margin: 0;
+  color: #8cb0d9;
+  font-size: 4.8rem;
+  font-weight: normal;
+  margin: 0;
 }
 
 h3 {
-    color: #8cb0d9;
-    font-size: 2.4rem;
-    margin: 0;
+  color: #8cb0d9;
+  font-size: 2.4rem;
+  margin: 0;
 }
 
 p {
@@ -72,13 +73,13 @@ p {
 }
 
 .profile {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .profile-pic {
-    width: 22vh;
-    height: auto;
+  width: 22vh;
+  height: auto;
 }
 
 .skills {
@@ -88,43 +89,36 @@ p {
 }
 
 .skill-row {
-    width: 90%;
-    margin: 40px auto;
-    text-align: justify;
-    line-height: 2;
-    display: flex;
-    flex-direction: row;
-    align-items: space-around;
+  width: 90%;
+  margin: 40px auto;
+  text-align: justify;
+  line-height: 2;
+  display: flex;
+  justify-content: space-around;
+  gap: 2%;
 }
 
 .skill-img {
-    width: 50%;
-    height: auto;
-    align-self: center;
-    display: flex;
-    flex: 1 1 220px;
+  max-width: 20%;
+  align-self: center;
+  display: flex;
+  flex-grow: 0;
+  margin: 0 auto;
 }
 
 .skill-text {
-    width: 90%;
-    flex: 2 2 auto;
-    margin: auto 30px;
+  max-width: 80%;
+  flex-shrink: 0;
+  margin: auto;
 }
 
 #skill2 {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
-/* #PC-responsive-img { */
-/*     position: relative; */
-/*     top: 55px; */
-/*     width: 13rem; */
-/*     height: auto; */
-/* } */
-
-.bottom-container{
-    padding-bottom: 20px;
-    padding-top: 30px;
+.bottom-container {
+  padding-bottom: 20px;
+  padding-top: 30px;
 }
 
 .bottom-container .container {
@@ -139,15 +133,16 @@ p {
   padding: 0;
 }
 
-.bottom-container a, a ~ span{
-    color: #FC4F4F;
-    text-decoration: none;
+.bottom-container a,
+a ~ span {
+  color: #fc4f4f;
+  text-decoration: none;
 }
 
-.contact-me{
-    background-color: #1a324c;
-    padding: 3rem 0;
-    padding-bottom: 80px;
+.contact-me {
+  background-color: #1a324c;
+  padding: 3rem 0;
+  padding-bottom: 80px;
 }
 
 .contact-me p {
@@ -156,41 +151,41 @@ p {
 }
 
 .btn {
-    -webkit-border-radius: 25;
-    -moz-border-radius: 25;
-    border-radius: 25px;
-    color: #ffffff;
-    font-size: 20px;
-    background: #FC4F4F;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #fc4f4f;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
 .btn:hover {
-    background: #5a3926;
-    text-decoration: none;
+  background: #5a3926;
+  text-decoration: none;
 }
 
-#img-credit{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    font-size: 12px;
-    gap: 4px;
+#img-credit {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  font-size: 12px;
+  gap: 4px;
 }
 
-@media (max-width:629px) {
-    .skill-img {
-      display: none;
-    }
+@media (max-width: 629px) {
+  .skill-img {
+    display: none;
+  }
 
-    h1 {
-        margin-top: 0;
-    }
+  h1 {
+    padding: auto;
+  }
 
-    .footer-social {
-        flex-direction: column;
-    }
+  .footer-social {
+    flex-direction: column;
+  }
 }
 
 .portfolio {
@@ -225,7 +220,7 @@ p {
 }
 
 .project-links a {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   margin-right: 0.5rem;
-  color: #FC4F4F;
+  color: #fc4f4f;
 }
